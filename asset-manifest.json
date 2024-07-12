@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Kefir/static/css/main.79f3b428.css",
+    "main.js": "/Kefir/static/js/main.23367809.js",
+    "static/media/bgDesktop.png": "/Kefir/static/media/bgDesktop.3fbd4bbaa6aa45e3d467.png",
+    "static/media/han-solo.jpg": "/Kefir/static/media/han-solo.84705bac66e252072c67.jpg",
+    "index.html": "/Kefir/index.html",
+    "main.79f3b428.css.map": "/Kefir/static/css/main.79f3b428.css.map",
+    "main.23367809.js.map": "/Kefir/static/js/main.23367809.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79f3b428.css",
+    "static/js/main.23367809.js"
+  ]
+}
