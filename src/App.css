@@ -1,0 +1,149 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+p {
+    margin: 0;
+}
+
+.App {
+    margin: 0 auto;
+    text-align: center;
+    width: 1366px;
+    max-width: 100%;
+    background-color: #101f25;
+    background-image: url(../public/bgDesktop.png);
+    padding: 60px 0;
+}
+
+.loadMoreButton {
+    min-width: 220px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+/* Comments */
+
+.comments__header {
+    width: 660px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+    margin: 18px auto;
+    border-bottom: 2px solid #696969;
+    color: #fff;
+}
+
+.comments__header div {
+    display: flex;
+    align-items: center;
+}
+
+.comments__header p {
+    margin-left: 8px;
+}
+
+.comments__wrap {
+    text-align: left;
+    width: 660px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.comment__tree {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.comment {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.comment__avatar-wrap {
+    border-radius: 50%;
+    width: 68px;
+    min-width: 68px;
+    height: 68px;
+}
+
+.comment__avatar-wrap img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment__content {
+    padding-left: 16px;
+    width: 100%;
+}
+
+.comment__content-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 68px;
+    position: relative;
+}
+
+.comment__content-header .likes__wrap {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.comment__content-header .likes__wrap img {
+    width: 22px;
+    height: 22px;
+}
+
+.comment__content-header .likes__wrap p {
+    margin-left: 6px;
+    color: #fff;
+}
+
+.comment__content-header .name {
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.comment__content-header .created {
+    color: #8297ab;
+}
+
+.comment__content-body {
+}
+
+.comment__content-body .text {
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .App {
+        padding: 0 20px 20px 20px;
+    }
+
+    .comments__header {
+        margin-top: 0;
+    }
+
+    .comment__tree {
+        padding-left: 14px;
+    }
+}
